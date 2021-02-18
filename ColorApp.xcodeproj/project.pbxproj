@@ -13,10 +13,11 @@
 		FF1DB7A225C6E96900944462 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF1DB7A025C6E96900944462 /* Main.storyboard */; };
 		FF1DB7A425C6E96C00944462 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF1DB7A325C6E96C00944462 /* Assets.xcassets */; };
 		FF1DB7A725C6E96C00944462 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF1DB7A525C6E96C00944462 /* LaunchScreen.storyboard */; };
+		FFB3491E25DAD2BF004B9704 /* ColorChangedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB3491D25DAD2BF004B9704 /* ColorChangedViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		FF1DB79725C6E96900944462 /* HomeWork 2.2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HomeWork 2.2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF1DB79725C6E96900944462 /* ColorApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF1DB79A25C6E96900944462 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FF1DB79C25C6E96900944462 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		FF1DB79E25C6E96900944462 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +25,7 @@
 		FF1DB7A325C6E96C00944462 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FF1DB7A625C6E96C00944462 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FF1DB7A825C6E96C00944462 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFB3491D25DAD2BF004B9704 /* ColorChangedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorChangedViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,7 +42,7 @@
 		FF1DB78E25C6E96900944462 = {
 			isa = PBXGroup;
 			children = (
-				FF1DB79925C6E96900944462 /* HomeWork 2.2 */,
+				FF1DB79925C6E96900944462 /* ColorApp */,
 				FF1DB79825C6E96900944462 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,31 +50,32 @@
 		FF1DB79825C6E96900944462 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FF1DB79725C6E96900944462 /* HomeWork 2.2.app */,
+				FF1DB79725C6E96900944462 /* ColorApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		FF1DB79925C6E96900944462 /* HomeWork 2.2 */ = {
+		FF1DB79925C6E96900944462 /* ColorApp */ = {
 			isa = PBXGroup;
 			children = (
 				FF1DB79A25C6E96900944462 /* AppDelegate.swift */,
 				FF1DB79C25C6E96900944462 /* SceneDelegate.swift */,
 				FF1DB79E25C6E96900944462 /* ViewController.swift */,
 				FF1DB7A025C6E96900944462 /* Main.storyboard */,
+				FFB3491D25DAD2BF004B9704 /* ColorChangedViewController.swift */,
 				FF1DB7A325C6E96C00944462 /* Assets.xcassets */,
 				FF1DB7A525C6E96C00944462 /* LaunchScreen.storyboard */,
 				FF1DB7A825C6E96C00944462 /* Info.plist */,
 			);
-			path = "HomeWork 2.2";
+			path = ColorApp;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		FF1DB79625C6E96900944462 /* HomeWork 2.2 */ = {
+		FF1DB79625C6E96900944462 /* ColorApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FF1DB7AB25C6E96C00944462 /* Build configuration list for PBXNativeTarget "HomeWork 2.2" */;
+			buildConfigurationList = FF1DB7AB25C6E96C00944462 /* Build configuration list for PBXNativeTarget "ColorApp" */;
 			buildPhases = (
 				FF1DB79325C6E96900944462 /* Sources */,
 				FF1DB79425C6E96900944462 /* Frameworks */,
@@ -82,9 +85,9 @@
 			);
 			dependencies = (
 			);
-			name = "HomeWork 2.2";
+			name = ColorApp;
 			productName = "HomeWork 2.2";
-			productReference = FF1DB79725C6E96900944462 /* HomeWork 2.2.app */;
+			productReference = FF1DB79725C6E96900944462 /* ColorApp.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -101,7 +104,7 @@
 					};
 				};
 			};
-			buildConfigurationList = FF1DB79225C6E96900944462 /* Build configuration list for PBXProject "HomeWork 2.2" */;
+			buildConfigurationList = FF1DB79225C6E96900944462 /* Build configuration list for PBXProject "ColorApp" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -114,7 +117,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FF1DB79625C6E96900944462 /* HomeWork 2.2 */,
+				FF1DB79625C6E96900944462 /* ColorApp */,
 			);
 		};
 /* End PBXProject section */
@@ -139,6 +142,7 @@
 			files = (
 				FF1DB79F25C6E96900944462 /* ViewController.swift in Sources */,
 				FF1DB79B25C6E96900944462 /* AppDelegate.swift in Sources */,
+				FFB3491E25DAD2BF004B9704 /* ColorChangedViewController.swift in Sources */,
 				FF1DB79D25C6E96900944462 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -288,12 +292,12 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QZLVH79HKK;
-				INFOPLIST_FILE = "HomeWork 2.2/Info.plist";
+				INFOPLIST_FILE = ColorApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Romanenko-Svetlana.HomeWork-2-2";
+				PRODUCT_BUNDLE_IDENTIFIER = "Romanenko-Svetlana.ColorApp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -307,12 +311,12 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QZLVH79HKK;
-				INFOPLIST_FILE = "HomeWork 2.2/Info.plist";
+				INFOPLIST_FILE = ColorApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Romanenko-Svetlana.HomeWork-2-2";
+				PRODUCT_BUNDLE_IDENTIFIER = "Romanenko-Svetlana.ColorApp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -322,7 +326,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FF1DB79225C6E96900944462 /* Build configuration list for PBXProject "HomeWork 2.2" */ = {
+		FF1DB79225C6E96900944462 /* Build configuration list for PBXProject "ColorApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FF1DB7A925C6E96C00944462 /* Debug */,
@@ -331,7 +335,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FF1DB7AB25C6E96C00944462 /* Build configuration list for PBXNativeTarget "HomeWork 2.2" */ = {
+		FF1DB7AB25C6E96C00944462 /* Build configuration list for PBXNativeTarget "ColorApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FF1DB7AC25C6E96C00944462 /* Debug */,
